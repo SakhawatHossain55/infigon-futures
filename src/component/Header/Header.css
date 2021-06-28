@@ -1,0 +1,26 @@
+.logo img {
+    width: 125px;
+}
+
+.nab-background {
+    background-color: #ECECEC;
+}
+
+.nav-text {
+    color: #2F3778 !important;
+    font-weight: bold !important;
+}
+
+.nav-text:hover {
+    border-bottom: 2px solid #2F3778;
+}
+.nav-text:active {
+    border-bottom: 2px solid #2F3778;
+}
+
+.touch-style {
+    color: #fff !important;
+    background-color: #303778;
+    padding: 5px 35px !important;
+    border-radius: 35px;
+}
