@@ -5,7 +5,7 @@ import './Header.css'
 
 const Header = () => {
   return (
-    <Navbar style={{position: 'absolute', left: 0, top: 0, right: 0, zIndex: 3 }} className="nab-background" expand="lg">
+    <Navbar className="nab-background" expand="lg">
       <Container>
         <Navbar.Brand href="#" className="logo">
           <img src={logo} alt="" />
