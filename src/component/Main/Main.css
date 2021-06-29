@@ -4,10 +4,6 @@
   position: relative;
 }
 
-.main::before {
-    position: relative;
-}
-
 p {
   font-size: 12px;
 }
@@ -37,6 +33,11 @@ span {
 }
 
 .vl::before {
-    border-left: 3px solid #2F6B90;
+    content: '';
+    width: 3px;
+    background-color: #2F6B90;
+    top: 0;
+    bottom: 0;
+    position: absolute;
     height: 100%;
   }
