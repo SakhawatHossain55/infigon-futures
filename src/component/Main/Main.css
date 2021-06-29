@@ -1,7 +1,11 @@
 .main {
   background-color: #2f3778;
-  /* height: 100vh; */
-  height: 553px;
+  height: 550px;
+  position: relative;
+}
+
+.main::before {
+    position: relative;
 }
 
 p {
@@ -32,6 +36,7 @@ span {
   height: 400px;
 }
 
-.vl {
+.vl::before {
     border-left: 3px solid #2F6B90;
+    height: 100%;
   }

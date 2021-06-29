@@ -5,9 +5,9 @@ import "./Main.css";
 const Main = () => {
   return (
     <div className="text-white main d-flex align-items-center">
-      <Container>
+      <Container className="vl">
         <Row>
-          <div className="col-md-6 px-5 text-justify vl">
+          <div className="col-md-6 px-5 text text-justify">
             <h2 className="pb-4">How we can Help</h2>
             <p>
               Codimentum vei vestibulum, facili euismod id ornare fermentum ac.

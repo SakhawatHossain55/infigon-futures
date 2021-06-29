@@ -14,7 +14,7 @@ const Header = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto py-2">
             <Nav.Link className="mx-3 nav-text" href="#">Home</Nav.Link>
-            <Nav.Link className="mx-3 nav-text" href="#">How we help</Nav.Link>
+            <Nav.Link className="mx-3 nav-text active" href="#">How we help</Nav.Link>
             <Nav.Link className="mx-3 nav-text" href="#">Programs</Nav.Link>
             <Nav.Link className="mx-3 nav-text" href="#">FAQS</Nav.Link>
             <Nav.Link href="#" className="touch-style">
@@ -28,3 +28,6 @@ const Header = () => {
 };
 
 export default Header;
+
+
+// style={{position: 'absolute', left: 0, top: 0, right: 0, zIndex: 3 }}
